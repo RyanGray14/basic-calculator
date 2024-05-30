@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('image/img3.jpeg');
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    align-self: center;
+}
+.main{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+    box-shadow: 0 0 20px black;
+}
+
+.buttons{
+    box-shadow: 1px 1px 5px black;
+}
+.buttons:active{
+    box-shadow: none;
+}
+
+.number{
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 25px;
+}
+.operation{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 25px;
+}
+.equal,
+.clear,
+.backspace{
+    height: 50px;
+    width: 110px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.display{
+    border: none;
+    height: 25px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.input{
+    width: 220px;
+    height: 30px;
+}
+.output{
+    color: white;
+    font-size: 24px;
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
